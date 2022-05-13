@@ -1,0 +1,31 @@
+.notesList{
+    display:flex;
+    width: 100%;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.note{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding:15px;
+    width:300px;
+    min-height: 300px;
+    border-radius: 20px;
+    margin:20px;
+    background-color:rgb(67, 74, 81);
+}
+.noteFooter{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.new{
+    background-color:rgb(118, 160, 164)
+}
+.new textarea{
+    outline:none;
+    border:none;
+    max-width:100%;
+    background:transparent;
+}
